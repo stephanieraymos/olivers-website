@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(green, white);
+    background: linear-gradient(green, white), no-repeat;
 }
 
 h1 {
