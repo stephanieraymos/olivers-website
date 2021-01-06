@@ -11,13 +11,24 @@ h1 {
     text-align: center;
 }
 
-.center {
+.favs-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.favs-each-cont {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+/* .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     padding-top: 10px;
-  }
+  } */
 
 .title {
     margin: 20px;
@@ -25,15 +36,21 @@ h1 {
 }
 
 .desc {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
 }
 
-@media only screen and (min-width: 900px) {
+/* @media only screen and (min-width: 900px) {
     .desc {
         margin-left: 200px;
         margin-right: 200px;
         text-align: center;
     }
+}  */
+
+img {
+    width: 100%;
+    padding: 10px;
 }
+
