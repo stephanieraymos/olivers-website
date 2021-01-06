@@ -7,6 +7,17 @@ h1 {
     color: rgb(210, 255, 214);
 }
 
+.main-img {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border: white 3px solid;
+    background-color: rgb(210, 255, 214);
+    align-items: center;
+}
+
 .button-container {
     text-align: center;
 }
