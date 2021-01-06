@@ -1,5 +1,13 @@
+html {
+    height: 100%;
+}
+
 body {
-    background-color: linear-gradient(green, white), no-repeat;
+    background: linear-gradient(green, white);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
