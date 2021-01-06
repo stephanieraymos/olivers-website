@@ -57,6 +57,11 @@ button {
     background-color: rgb(210, 255, 214);
 }
 
+.flex-button {
+    display: flex;
+    flex-direction: column;
+}
+
 .flex-item-bigger {
     width: 600px;
     display: flex;
@@ -100,5 +105,10 @@ p {
 
 img {
     width: 100%;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
 }
 
