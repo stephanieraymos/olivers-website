@@ -181,3 +181,7 @@ img {
   margin-bottom: -20px;
   padding-bottom: 5px;
 }
+
+a {
+  text-decoration: none;
+}
