@@ -1,38 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oliver's Website!</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
+
 <body>
-    <h1>Oliver's Own Website!</h1>
-
-    <div class="flexbox-cont">
-        <a href="shows.html"><button class="flex-button">My favorite shows!</button></a>
-        <a href="movies.html"><button class="flex-button">My favorite movies!</button></a>
-        <a href="superheroes.html"><button class="flex-button">My favorite superheroes!</button></a>
-        <a href="https://www.youtube.com/channel/UCTYRFpJiGQIfmRWFAVOIw_g" target="_blank"><img src="img/youtube.svg" alt="Youtube" class="logo flex-button"></a>
-    </div>
-
-    <div class="flexbox-cont">
-        <div class="flex-item-bigger">
-            <img src="img/racing.jpg" alt="Oliver" >
+    <nav class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">
+                My favs
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="shows.html">Shows</a>
+                <a href="movies.html">Movies</a>
+                <a href="superheroes.html">Superheroes</a>
+            </div>
         </div>
-        <div class="flex-item">
-            <h2>My name is Oliver!</h2>
-            <p>Age: 3</p>
-            <p>Favorite color: Green.</p>
-            <p>Favorite outdoor activity: Racing on my bike!</p>
-            <p>Favorite indoor activity: Building forts and reading books.</p>
-            <p>Favorite food: Salmon and couscous.</p>
-            <p>Favorite animal: Lion.</p>
-            <p>Favorite movie: Sing.</p>
-        </div>
-    </div>
+        <a href="#contact">Contact</a>
+        <a href="https://www.youtube.com/channel/UCTYRFpJiGQIfmRWFAVOIw_g" target="_blank"><img src="img/youtube.svg"
+                alt="Youtube" class="logo flex-button" /></a>
+    </nav>
 
-<script src="js/index.js"></script>    
+    <div class="flex-cont">
+        <h1>Oliver Raymos</h1>
+
+        <div class="flexbox-cont">
+            <div class="flex-item-bigger">
+                <img src="img/racing.jpg" alt="Oliver" />
+            </div>
+            <div class="flex-item">
+                <h2>My name is Oliver!</h2>
+                <p>Age: 3</p>
+                <p>Favorite color: Green.</p>
+                <p>Favorite outdoor activity: Racing on my bike!</p>
+                <p>Favorite indoor activity: Building forts and reading books.</p>
+                <p>Favorite food: Salmon and couscous.</p>
+                <p>Favorite animal: Lion.</p>
+                <p>Favorite movie: Sing.</p>
+            </div>
+        </div>
+
+        <script src="js/index.js"></script>
 </body>
+
 </html>
