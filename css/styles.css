@@ -185,3 +185,8 @@ img {
 a {
   text-decoration: none;
 }
+
+.youtube-song-button {
+  align-self: center;
+  width: 100px;
+}
