@@ -166,6 +166,14 @@ button {
   margin: 10px;
   border: white 3px solid;
   background-color: rgb(210, 255, 214);
+  animation-name: front-pic;
+  animation-duration: 4s;
+}
+
+
+@keyframes front-pic {
+  from {background-color: green;}
+  tp {background-color: rgb(210, 255, 214);}
 }
 
 .title {
