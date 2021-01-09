@@ -29,9 +29,11 @@ h1 {
 }
 
 @keyframes heading {
-  from {left: 80%; color: black;}
+  from {left: 02%; color: black;}
   to {left: 40%; color: white;}
 }
+
+.front-page-cont {}
 
 /* NAVIGATION */
 /* Add a black background color to the top navigation */
