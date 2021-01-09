@@ -23,7 +23,7 @@ h1 {
 .heading {
   position: absolute;
   left: 40%;
-  top: 12%;
+  top: 18%;
   white-space: nowrap;
   animation: heading 3s ease-in-out;
 }
@@ -32,8 +32,6 @@ h1 {
   from {left: 02%; color: black;}
   to {left: 40%; color: white;}
 }
-
-.front-page-cont {}
 
 /* NAVIGATION */
 /* Add a black background color to the top navigation */
