@@ -14,8 +14,15 @@ body {
 h1 {
   text-align: center;
   color: rgb(210, 255, 214);
+  animation-name: heading;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
 }
 
+@keyframes heading {
+  from {color: green;}
+  to {color: rgb(210, 255, 214);}
+}
 /* NAVIGATION */
 /* Add a black background color to the top navigation */
 .topnav {
@@ -173,7 +180,7 @@ button {
 
 @keyframes front-pic {
   from {background-color: green;}
-  tp {background-color: rgb(210, 255, 214);}
+  to {background-color: rgb(210, 255, 214);}
 }
 
 .title {
