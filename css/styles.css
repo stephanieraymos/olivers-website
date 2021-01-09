@@ -16,6 +16,7 @@ h1 {
   color: rgb(210, 255, 214);
 }
 
+/* NAVIGATION */
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -99,6 +100,16 @@ h1 {
   display: block;
 }
 
+.logo {
+  width: 70px;
+  margin: -10px;
+  margin-top: -15px;
+  margin-bottom: -20px;
+  padding-bottom: 5px;
+}
+/* END NAVIGATION */
+
+/* INDEX MAIN IMAGE */
 .main-img {
   width: 650px;
   display: flex;
@@ -110,6 +121,7 @@ h1 {
   align-items: center;
 }
 
+/* BUTTONS */
 .button-container {
   text-align: center;
 }
@@ -122,6 +134,7 @@ button {
   margin: 10px;
 }
 
+/* FLEX BOX */
 .flexbox-cont {
   display: flex;
   flex-direction: row;
@@ -155,10 +168,6 @@ button {
   background-color: rgb(210, 255, 214);
 }
 
-p {
-  color: green;
-}
-
 .title {
   margin: 20px;
   text-align: center;
@@ -170,16 +179,12 @@ p {
   text-align: center;
 }
 
-img {
-  width: 100%;
+p {
+  color: green;
 }
 
-.logo {
-  width: 70px;
-  margin: -10px;
-  margin-top: -15px;
-  margin-bottom: -20px;
-  padding-bottom: 5px;
+img {
+  width: 100%;
 }
 
 a {
