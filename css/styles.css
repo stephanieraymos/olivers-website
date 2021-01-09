@@ -15,7 +15,7 @@ h1 {
   text-align: center;
   color: rgb(210, 255, 214);
   animation-name: heading;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-timing-function: ease-in;
 }
 
