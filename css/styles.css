@@ -36,6 +36,15 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 470px){
+  .heading {
+    left: 30%;
+    top: 20%;
+    animation: heading-smallest 3s ease-in-out;
+  
+  }
+}
+
 @keyframes heading {
   from {left: 02%; color: black;}
   to {left: 40%; color: white;}
@@ -44,6 +53,11 @@ h1 {
 @keyframes heading-small {
   from {left: 02%; color: black;}
   to {left: 35%; color: white;}
+}
+
+@keyframes heading-smallest {
+  from {left: 02%; color: black;}
+  to {left: 30%; color: white;}
 }
 
 
