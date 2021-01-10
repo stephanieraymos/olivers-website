@@ -40,6 +40,13 @@ h1 {
   to {left: 40%; color: white;}
 }
 
+@media (max-width:500px) {
+  @keyframes heading {
+    from {left: 02%; color: black;}
+    to {left: 35%; color: white;}
+  }
+}
+
 /* NAVIGATION */
 /* Add a black background color to the top navigation */
 .topnav {
