@@ -27,6 +27,14 @@ h1 {
   animation: heading 3s ease-in-out;
 }
 
+@media only screen and (max-width: 500px){
+  .heading {
+    left: 35%;
+    top: 15%;
+    animation: heading 3s ease-in-out;
+  }
+}
+
 @keyframes heading {
   from {left: 02%; color: black;}
   to {left: 40%; color: white;}
