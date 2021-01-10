@@ -30,7 +30,7 @@ h1 {
 @media only screen and (max-width: 500px){
   .heading {
     left: 35%;
-    animation: heading 3s ease-in-out;
+    animation: heading-small 3s ease-in-out;
   
   }
 }
@@ -40,12 +40,12 @@ h1 {
   to {left: 40%; color: white;}
 }
 
-@media (max-width:500px) {
-  @keyframes heading {
-    from {left: 02%; color: black;}
-    to {left: 35%; color: white;}
-  }
+@keyframes heading-small {
+  from {left: 02%; color: black;}
+  to {left: 35%; color: white;}
 }
+
+
 
 /* NAVIGATION */
 /* Add a black background color to the top navigation */
