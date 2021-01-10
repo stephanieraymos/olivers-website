@@ -19,6 +19,7 @@ h1 {
   animation-timing-function: ease-in;
 }
 
+/* MAIN HEADING ANIMATION */
 .heading {
   position: absolute;
   left: 40%;
@@ -27,6 +28,12 @@ h1 {
   animation: heading 3s ease-in-out;
 }
 
+@keyframes heading {
+  from {left: 02%; color: black;}
+  to {left: 40%; color: white;}
+}
+
+/* SMALLER SCREENS ANIMATION */
 @media only screen and (max-width: 500px){
   .heading {
     left: 35%;
@@ -36,23 +43,19 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 470px){
-  .heading {
-    left: 30%;
-    top: 20%;
-    animation: heading-smallest 3s ease-in-out;
-  
-  }
-}
-
-@keyframes heading {
-  from {left: 02%; color: black;}
-  to {left: 40%; color: white;}
-}
-
 @keyframes heading-small {
   from {left: 02%; color: black;}
   to {left: 35%; color: white;}
+}
+
+/* SMALLEST SCREENS ANIMATION */
+@media only screen and (max-width: 470px){
+  .heading {
+    left: 30%;
+    top: 18%;
+    animation: heading-smallest 3s ease-in-out;
+  
+  }
 }
 
 @keyframes heading-smallest {
