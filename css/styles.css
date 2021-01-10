@@ -49,7 +49,7 @@ h1 {
 }
 
 /* SMALLEST SCREENS ANIMATION */
-@media only screen and (max-width: 470px){
+@media only screen and (max-width: 455px){
   .heading {
     left: 30%;
     top: 18%;
