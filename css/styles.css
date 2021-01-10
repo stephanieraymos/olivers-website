@@ -30,6 +30,7 @@ h1 {
 @media only screen and (max-width: 500px){
   .heading {
     left: 35%;
+    top: 15%;
     animation: heading-small 3s ease-in-out;
   
   }
